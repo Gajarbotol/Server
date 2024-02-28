@@ -61,7 +61,7 @@ def MR_DIPTO():
         exit(' Thanks for using dear :)')
 #-------------UPADATING-----------#
 
-SHOHAN_BOT = requests.get("https://raw.githubusercontent.com/Gajarbotol/love/main/ua.text").text.splitlines()
+SHOHAN_BOT = requests.get("https://raw.githubusercontent.com/Gajarbotol/Update/main/ua.text").text.splitlines()
 
 TARA_505 = random.choice(SHOHAN_BOT)
 
